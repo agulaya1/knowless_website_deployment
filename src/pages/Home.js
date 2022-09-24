@@ -11,6 +11,7 @@ import { ReactComponent as SoundcloudLogo } from "../icons/soundcloud-logo.svg";
 import YoutubeEmbed from "../components/videos/YoutubeEmbed";
 import sunbeam from "../images/beat-battle-art/sunbeam.jpeg";
 import { Helmet } from "react-helmet";
+import kl_logo from "../logos/sumant_moment.png";
 
 const Home = () => {
   // used for hover effects on track-item
