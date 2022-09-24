@@ -4,16 +4,17 @@ import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Sidebar from "./components/ui/Sidebar.js";
 import Contact from "./pages/Contact.js";
-import kl_logo from './logos/sumant_moment.png'
+import kl_logo from './logos/sumant_moment.png';
+import {Helmet} from 'react-helmet';
 
 function App() {
   return (
     <>
-    <head>
-      <meta id="meta-description" property="og:description" content="official website for knowless" />
-      <meta id="og-title" property="og:title" content="knowless" />
-      <meta id="og-image" property="og:image" content={kl_logo} />
-    </head>
+      <Helmet>
+        <title>knowless</title>
+        <meta id="meta-description" property="og:description" content="official website for knowless" />
+        <meta id="og-image" property="og:image" content={kl_logo} />
+      </Helmet>
       <Router>
         <div
           className="App"
