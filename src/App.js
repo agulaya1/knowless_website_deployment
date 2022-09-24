@@ -9,9 +9,11 @@ import kl_logo from './logos/sumant_moment.png'
 function App() {
   return (
     <>
-      <meta id="meta-description" name="description" content="official website for knowless" />
+    <head>
+      <meta id="meta-description" property="og:description" content="official website for knowless" />
       <meta id="og-title" property="og:title" content="knowless" />
       <meta id="og-image" property="og:image" content={kl_logo} />
+    </head>
       <Router>
         <div
           className="App"
