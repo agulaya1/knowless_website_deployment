@@ -12,6 +12,7 @@ import YoutubeEmbed from "../components/videos/YoutubeEmbed";
 import sunbeam from "../images/beat-battle-art/sunbeam.jpeg";
 import { Helmet } from "react-helmet";
 import kl_logo from "../logos/sumant_moment.png";
+import solidpink from "../images/solidpink.jpg"
 
 const Home = () => {
   // used for hover effects on track-item
@@ -124,6 +125,7 @@ const Home = () => {
           <div className="track-list">
             {/* track list items w/ animations */}
             <div className="track-list-grid">
+              
               {React.Children.toArray(
                 MusicData.map((item, index) => {
                   return (
@@ -158,6 +160,7 @@ const Home = () => {
           {/* track picture/info */}
           <div className="track-info">
             <div className="track-picture-container">
+            
               {React.Children.toArray(
                 MusicData.map((item, index) => {
                   return (
@@ -183,6 +186,10 @@ const Home = () => {
                   );
                 })
               )}
+              <div className="placeholder-container">
+                <img className="placeholder-picture" src={solidpink} alt="choose a song!"/>
+                <p className="placeholder-text">[select a song]</p>
+              </div>
             </div>
           </div>
         </div>

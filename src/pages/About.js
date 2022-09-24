@@ -87,7 +87,7 @@ const About = () => {
           </p>
           <br></br>
           <p>
-            i hope you like my website! i coded it using HTML/CSS and React.js
+            i hope you like my website! i coded it using HTML/CSS and React.js.
             <br></br>
             <span style={{ fontStyle: "italic" }}>
               *website is still very much a work in progress
