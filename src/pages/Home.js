@@ -10,7 +10,7 @@ import changeColor from "../components/color/AppColor.js";
 import { ReactComponent as SoundcloudLogo } from "../icons/soundcloud-logo.svg";
 import YoutubeEmbed from "../components/videos/YoutubeEmbed";
 import sunbeam from "../images/beat-battle-art/sunbeam.jpeg";
-import {Helmet} from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   // used for hover effects on track-item
@@ -55,11 +55,10 @@ const Home = () => {
       <Helmet>
         <title>knowless</title>
         <meta
-          id="meta-description"
-          property="og:description"
+          name="description"
           content="official website for knowless"
         />
-        <meta id="og-image" property="og:image" content={kl_logo} />
+        <meta name="image" content={kl_logo} />
       </Helmet>
       <section className="home-box">
         <div className="left-intro">
