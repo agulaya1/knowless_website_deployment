@@ -4,17 +4,14 @@ import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Sidebar from "./components/ui/Sidebar.js";
 import Contact from "./pages/Contact.js";
-import MetaTags from "react-meta-tags";
 import kl_logo from './logos/sumant_moment.png'
 
 function App() {
   return (
     <>
-      <MetaTags>
-        <meta id="meta-description" name="description" content="official website for knowless" />
-        <meta id="og-title" property="og:title" content="knowless" />
-        <meta id="og-image" property="og:image" content={kl_logo} />
-      </MetaTags>
+      <meta id="meta-description" name="description" content="official website for knowless" />
+      <meta id="og-title" property="og:title" content="knowless" />
+      <meta id="og-image" property="og:image" content={kl_logo} />
       <Router>
         <div
           className="App"
