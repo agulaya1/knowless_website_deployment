@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Source+Serif+Pro:wght@200;300;400;700&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+* {
+  margin: 0;
+  font-family: "Tiro Devanagari Marathi";
+  color: #333;
+}
+
+body {
+  margin-top: 70px;
+  background-color: rgb(232, 223, 209);
+}
+
+.App {
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 1400px) {
+  .home {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}

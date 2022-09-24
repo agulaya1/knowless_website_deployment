@@ -1,0 +1,11 @@
+.instagram:hover {
+  fill: rgb(204, 9, 84);
+}
+
+.soundcloud:hover {
+  fill: #ff7700
+}
+
+.twitter:hover {
+  fill: #00acee;
+}
